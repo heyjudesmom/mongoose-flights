@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: lightblue;
 }
 
@@ -19,9 +19,9 @@ label {
 }
 
 form {
-  padding: 2vmin;
-  text-align: justify;
-  border: 0.3vmin solid black;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
 }
 
 th, td {
@@ -31,7 +31,16 @@ th, td {
 }
 
 td:hover {
-  background-color: rgba(220, 126, 50, 0.41);
-  color: white;
-  font-style: oblique;
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+}
+
+input[type=submit] {
+  background-color: #2eb45d;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  border-radius: 15%;
+  cursor: pointer;
 }
