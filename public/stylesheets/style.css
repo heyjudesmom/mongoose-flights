@@ -1,8 +1,37 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightblue;
 }
 
 a {
-  color: #00B7FF;
+  color: #136aec;
+}
+
+label {
+  background-color: aliceblue;
+  padding: 1.5vmin;
+  border: 0.3vmin solid black;
+}
+
+form {
+  padding: 2vmin;
+  text-align: justify;
+  border: 0.3vmin solid black;
+}
+
+th, td {
+  padding: 1vmin;
+  text-align: justify;
+  border: 0.3vmin solid black;
+}
+
+td:hover {
+  background-color: rgba(220, 126, 50, 0.41);
+  color: white;
+  font-style: oblique;
 }
