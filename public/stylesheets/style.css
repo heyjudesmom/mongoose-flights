@@ -21,7 +21,7 @@ label {
 form {
   display: flex;
   flex-direction: row;
-  text-align: right;
+  text-align: center;
 }
 
 th, td {
@@ -33,14 +33,18 @@ th, td {
 td:hover {
   background-color: aliceblue;
   color: black;
-  font-weight: bold;
+  font-style: oblique;
 }
 
 input[type=submit] {
-  background-color: #2eb45d;
   font-size: 20px;
   font-weight: bold;
+  background-color: deepskyblue;
   color: aliceblue;
   border-radius: 15%;
   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2eb45d;
 }
