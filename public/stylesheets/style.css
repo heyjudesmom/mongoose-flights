@@ -7,6 +7,10 @@ body {
   font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: lightblue;
 }
+#show-page > div{
+  display: flex;
+  flex-direction: row;
+}
 
 a {
   color: #136aec;
@@ -48,3 +52,4 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #2eb45d;
 }
+
